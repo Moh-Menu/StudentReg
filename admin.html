@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/admin.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Admin Panel</h1>
+</header>
+
+<section class="admin-container">
+    <h2>Manage Login Form Design</h2>
+
+    <form id="styleForm">
+        <label><input type="radio" name="loginStyle" value="floating"> Floating Login Form</label><br>
+        <label><input type="radio" name="loginStyle" value="center"> Center Login Form</label><br>
+        <label><input type="radio" name="loginStyle" value="top-right"> Top Right Login Form</label><br>
+
+        <button type="button" onclick="saveLoginStyle()">Save Settings</button>
+    </form>
+
+    <p id="statusText"></p>
+
+</section>
+
+</body>
+</html>
